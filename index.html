@@ -1,0 +1,29 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="grad">
+    <h2>
+        <p id="title" align="center"><strong>Notes - My To Do List</strong></p>
+    </h2>
+    <div id="box">
+        <label for="Notes">
+            <input id="input" required placeholder="Please enter your Notes" >
+            <input id="dt" type="date" required placeholder="Please enter Date" >
+        </label>
+        <button id="button" onclick="add()">Add Notes</button>
+        <hr>
+        <div class="js-todo todo-grid"></div>
+        <p id="footer">Design & Developed by : Anuj Mittal</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

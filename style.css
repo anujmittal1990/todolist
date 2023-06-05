@@ -1,0 +1,127 @@
+#grad {
+    background-image: linear-gradient(to bottom right, rgb(67, 229, 226), purple);
+    font-family: 'Lufga';
+}
+
+/* For WebKit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 15px;
+    /* Set the width of the scrollbar */
+    background-color: rgba(225, 222, 222, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(239, 232, 232, 0.5);
+    /* Set the color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Set the radius of the scrollbar thumb */
+}
+
+#box {
+    padding: 10px 10px 350px 10px;
+    margin: 23% 23% 23%;
+    margin-top: 0px;
+    height: 38%;
+    max-height: 100vh;
+    /* Set the maximum height of the container */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    border: #ece8eb solid 2px;
+    border-radius: 20px 50px 30px 10px;
+}
+
+
+#input {
+    border: none;
+    height: 35px;
+    width: 350px;
+    background-color: white;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dt {
+    border: none;
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+hr {
+    border: solid 1px;
+    color: rgb(223, 227, 233);
+    width: 100%;
+
+}
+
+
+#button {
+    background-color: #157661;
+    /* Green */
+    border: none 1px;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+#button:hover {
+    background-color: #ca6a1b;
+    /* Green */
+    color: white;
+}
+
+
+#delete {
+    background-color: #e30b0b;
+    /* Green */
+    border: none 1px;
+    color: white;
+    padding: 7px 10px;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+#delete:hover {
+    background-color: #ad348d;
+    /* Green */
+    color: white;
+}
+
+#bg {
+    height: 25px;
+    color: white;
+    font-size: medium;
+    width: 85%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    color: white;
+}
+
+.todo-grid {
+    display: grid;
+    grid-template-columns: 350px 150px 80px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+#footer
+{
+    text-align: center;
+    margin-top: 50%;
+    font-size: medium;
+    font-style: italic;
+    color: #ece8eb;
+    background-color: #c16010;
+}
